@@ -1,0 +1,101 @@
+<footer class="footer section white">
+            {% assign url = page.url  %}
+            {% assign base_dir = page.url | split:'/'  %}
+            {% assign base_dir = base_dir  %}
+            <div class="logos">
+                {% if (base_dir[1] == "2018") %}
+
+                {% else %}
+                    <div class="logo col-xs-7 col-md-4 col-lg-4">
+                        <a href="https://www.deutsche-stiftung-engagement-und-ehrenamt.de/" target="_blank">
+                            <img src="{{ site.baseurl }}/assets/img/static/D-S-E-E.png"/>
+                        </a>
+                    </div>
+                    <div class="row">
+                       <div class="logo col-xs-7 col-md-4 col-lg-4">
+                        <a href="https://okfn.de/" target="_blank">
+                            <img src="{{ site.baseurl }}/assets/img/static/logo-okfn.png"/>
+                        </a>
+                    </div>
+
+                {% endif %}
+
+            </div>
+
+
+            <div class="sponsors-nav">
+
+              <div class="col-xs-24">
+              {% if (base_dir[1] == "2020") %}
+                    <div style="text-align: left; max-width: 300px;">
+                        <a href="https://www.bpb.de/" target="_blank">
+                            <p >Gefördert durch</p>
+                            <img  style="max-width: 50%; margin-bottom:20px" src="{{ site.baseurl }}/assets/img/static/Die_Bundeszentrale_Für_Politische_Bildung_Logo.png"/>
+                        </a>
+                    </div>
+                {% endif %}
+                <div class="cc-info" style="text-align:left">
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/><p class="bold">Inhalte dieser Webseite sind, sofern nicht anders angegeben, nach <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 Attribution lizenziert.</a>
+
+                </div>
+              </div>
+              <div class="foot-links">
+                <a class="imprint simple-btn" target="_blank" href="https://okfn.de/impressum/">Impressum</a>
+              </div>
+            </div>
+
+</footer>
+
+        <!-- js libs -->
+        <script src="{{ site.baseurl }}/assets/js/vendor/jquery.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/isotope.pkgd.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/imagesloaded.pkgd.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fitvids.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/logger.min.js"></script>
+
+        <script src="{{ site.baseurl }}/assets/js/vendor/lunr.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/mustache.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/date.format.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/URI.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/jquery.lunr.search.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/trianglify.min.js"></script>
+
+        <!-- js custom -->
+        <script src="{{ site.baseurl }}/assets/js/modules/IsotopeController.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/main.js?v=2.0"></script>
+
+        <script>
+            jQuery(document).ready(function($) {
+                $('#search-query').lunrSearch({
+                  indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+                  results   : '#search-results',          // selector for containing search results element
+                  template  : '#search-results-template', // selector for Mustache.js template
+                  titleMsg  : '<h1>Search results<h1>',   // message attached in front of results (can be empty)
+                  emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
+                });
+
+               var drawRandomTeaser = function () {
+                    $.each($('.project-teaser.random-image'), function(i,e) {
+                        var pattern = Trianglify({
+                                          height: 200,
+                                          width: $(e).width(),
+                                          cell_size: 30 + Math.random() * 100});
+                        $('.teaser-image', this).html(pattern.canvas());
+                    });
+               }
+
+               $(window).resize(drawRandomTeaser);
+               drawRandomTeaser();
+
+                $('.btn-rss').click(function () {
+                    $('#rsslinks').fadeToggle(200);
+                });
+
+                window.controller = new Controller($);
+                window.controller.init();
+
+            });
+        </script>
+
+</body>
+</html>
