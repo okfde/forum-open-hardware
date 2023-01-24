@@ -1,9 +1,9 @@
 # Forum Open:Education
 
-Wie gelingt Bildung für eine offene digitale Gesellschaft?
-Mit dem "Forum Open:Education" möchten edulabs und das Bündnis Freie Bildung die Debatte um zeitgemäßes Lehren und Lernen voranbringen und den Austausch zwischen Zivilgesellschaft, Bildungspraxis und politischen Entscheidungsgremien fördern.
+## Welche Rollen spielen offene Technologien für eine zukunftsfähige Gesellschaft?
+Die Kreislaufwirtschaft oder auch "Circular Society" sowie das Recht auf Reparatur werden als Wege in eine nachhaltige Zukunft gesehen. Doch wie gelangen wir dorthin? Welche Rolle spielen die Zivilgesellschaft und die Technologiegestaltung dabei? Schon heute entwickeln und reparieren zahlreiche Menschen Technik, dokumentieren ihre Erkenntnisse und stellen sie anderen zur Verfügung. Es entstehen neue Formen der Zusammenarbeit und des Wirtschaftens. Technische Entwicklungen, die im Einklang mit den Prinzipen von Open Hardware stehen, ermöglichen es Menschen zu reparieren, Objekte nachzubauen und sie an lokale Gegebenheiten anzupassen. Damit legt Open Hardware den Grundstein für eine zirkuläre Gesellschaft, die Bürger*innen stärkt, auf lokale Produktion und das Erhalten von Technik setzt.
 
-<img src="assets/img/static/logo_main.svg" width="300" align="center">
+Doch insbesondere im aktuellen Diskurs um das Recht auf Reparatur zeigt sich, dass wir noch ganz am Anfang stehen. Ersatzteile sind oft nicht zu bekommen, Baupläne stehen nicht zur Verfügung und Geräte sind meistens so konstruiert, dass sie schwer zu öffnen sind. Das Forum Open Hardware bringt Entwickler*innen offener, reparierbarer und veränderbarer Hardware, Reparaturexpert*innen und politische Entscheidungstragende zusammen. Ziel ist es, den Austausch zu fördern und gemeinsam an Rahmenbedingungen zu arbeiten, die die Position der Zivilgesellschaft stärken.
 
 # License
 
@@ -13,4 +13,3 @@ Sofern nicht anders angegeben, stehen die Inhalte dieser Seite unter der <a href
 
 This website is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Please read the LICENSE files for more details.
 
-More information: [edulabs.de](http://edulabs.de/impressum)
