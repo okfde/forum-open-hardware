@@ -1,4 +1,4 @@
-# Forum Open:Education
+# Forum Open:Hardware
 
 ## Welche Rollen spielen offene Technologien für eine zukunftsfähige Gesellschaft?
 Die Kreislaufwirtschaft oder auch "Circular Society" sowie das Recht auf Reparatur werden als Wege in eine nachhaltige Zukunft gesehen. Doch wie gelangen wir dorthin? Welche Rolle spielen die Zivilgesellschaft und die Technologiegestaltung dabei? Schon heute entwickeln und reparieren zahlreiche Menschen Technik, dokumentieren ihre Erkenntnisse und stellen sie anderen zur Verfügung. Es entstehen neue Formen der Zusammenarbeit und des Wirtschaftens. Technische Entwicklungen, die im Einklang mit den Prinzipen von Open Hardware stehen, ermöglichen es Menschen zu reparieren, Objekte nachzubauen und sie an lokale Gegebenheiten anzupassen. Damit legt Open Hardware den Grundstein für eine zirkuläre Gesellschaft, die Bürger*innen stärkt, auf lokale Produktion und das Erhalten von Technik setzt.
