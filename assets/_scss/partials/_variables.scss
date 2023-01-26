@@ -17,17 +17,14 @@ Need help w/ choosing your colors? Try this site out:
 http://0to255.com/
 *********************/
 
-$black:             #667dff;
+$black:             #000000;
 $white:             #fff;
 $grey-light:        #f0f0f0;
 $grey-light-2:      #f6f6f6;
 $grey:              #bcbec0;
 
-$primary-color:     #7288ff;
-$secondary-color:   #00e173;
-
-$primary-color19:     #292ed6;
-$secondary-color19:   #ff6c00;
+$primary-color:     #8FFFE5;
+$secondary-color:   #AC52FF;
 
 $alert-yellow:      #ff0;
 $alert-red:         #f00;
@@ -36,11 +33,11 @@ $alert-blue:        #004fcc;
 
 $background-color:  $white;
 $text-color:        $black;
-$link-color:        #04dc68;
-$link-hover:        #04dc68;
+$link-color:        $secondary-color;
+$link-hover:        #E0C7FF;
 
-$link-background: rgba(114, 136, 255,0);
-$link-background-hover: rgba(114, 136, 255,0);
+$link-background: $link-color;
+$link-background-hover: $link-hover;
 
 $edupsprint-grey: #e6e7e8;
 $edupsprint-grey-light: #fafafa;

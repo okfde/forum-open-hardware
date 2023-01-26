@@ -379,9 +379,6 @@ HEADER STYLES
 
   @include transition(transform .25s ease);
 
-  &.fixed{
-    position: fixed;
-  }
 
   &.hardgone {
       display:none;
@@ -447,6 +444,7 @@ HEADER STYLES
       img{
         height: 100%;
         width: auto;
+        margin: 10px;
       }
 
     }
@@ -525,7 +523,7 @@ HEADER STYLES
 
         &.current{
           a{
-            color: $primary-color;
+            color: $link-hover !important;
           }
         }
 
@@ -538,7 +536,7 @@ HEADER STYLES
           }
 
           &:hover, &:focus{
-            color: $primary-color;
+            color: $link-hover !important;
           }
         }
 
@@ -596,7 +594,7 @@ body:not(.safari){
   &.home{
     height: 80vh;
     background-size: cover;
-    background-color: #7288ff;
+    background-color: $white;
     background-position: center;
 
     @media only screen and (max-width: 640px) {

@@ -1,22 +1,24 @@
 .nav-toggle {
   cursor: pointer;
-  padding: 10px 30px 16px 0px;
+  padding: 20px 30px 16px 0px;
   display: inline-block;
   position: absolute;
   top:14px;
   right:10px;
   z-index: 20;
+
 }
 
 .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 2px;
-  width: 24px;
+  height: 3px;
+  width: 30px;
   position: absolute;
   display: block;
   content: '';
-  background-color: $black;
+  background-color: $secondary-color;
+
 }
 .nav-toggle span:before {
   top: -9px;
