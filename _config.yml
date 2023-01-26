@@ -13,10 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-email: info@okfn.de
+title: "Forum Open:Hardware"
+description: "Offene Technologien für eine zukunftsfähige Gesellschaft!"
+
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: oshw_ger
+twitter:
+  username: oshw_ger
+  card: summary
+twitter_large_img: "/assets/img/static/logo_main_home.svg"
+logo: "/assets/img/static/logo_main.svg"
 url: "https://hardware.forum-open.de"
+email: info@okfn.de
+image:
+  path: /assets/img/static/logo_main_home.svg
+  alt: FOH Logo
+lang: "de_DE"
 
 # Build settings
 highlighter: rouge
@@ -49,11 +60,3 @@ collections:
 
 repository: 'okfde/forum-open-hardware'
 
-staticman:
-  branch: "master"
-
-title: "Forum Open:Hardware"
-description: "Offene Technologien für eine zukunftsfähige Gesellschaft!"
-logo: "/assets/img/static/logo_main_home.svg"
-twitter_large_img: "/assets/img/static/logo_main_home.svg"
-lang: "de_DE"
