@@ -20,12 +20,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter:
   username: oshw_ger
   card: summary
-twitter_large_img: "/assets/img/static/logo_main_home.svg"
-logo: "/assets/img/static/logo_main.svg"
+twitter_large_img: "/assets/img/static/logo_main_social.png"
+logo: "/assets/img/static/foh_logo_meta.png"
 url: "https://hardware.forum-open.de"
 email: info@okfn.de
 image:
-  path: /assets/img/static/logo_main_home.svg
+  path: /assets/img/static/logo_main_social.png
   alt: FOH Logo
 lang: "de_DE"
 
