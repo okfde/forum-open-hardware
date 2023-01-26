@@ -54,5 +54,6 @@ staticman:
 
 title: "Forum Open:Hardware"
 description: "Offene Technologien für eine zukunftsfähige Gesellschaft!"
-logo: "/assets/img/static/logo_small.jpg"
+logo: "/assets/img/static/logo_main_home.svg"
+twitter_large_img: "/assets/img/static/logo_main_home.svg"
 lang: "de_DE"
