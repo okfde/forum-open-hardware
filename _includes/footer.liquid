@@ -2,47 +2,41 @@
             {% assign url = page.url  %}
             {% assign base_dir = page.url | split:'/'  %}
             {% assign base_dir = base_dir  %}
-            <div class="logos">
+            <div class="sponsors">
                 {% if (base_dir[1] == "2018") %}
 
                 {% else %}
-                    <div class="logo col-xs-7 col-md-4 col-lg-4">
+                    <ul>
+                    <li>
                         <a href="https://www.deutsche-stiftung-engagement-und-ehrenamt.de/" target="_blank">
-                            <img src="{{ site.baseurl }}/assets/img/static/D-S-E-E.png"/>
+                            <img style="width: 60%" src="{{ site.baseurl }}/assets/img/static/D-S-E-E.png"/>
                         </a>
-                    </div>
-                    <div class="row">
-                       <div class="logo col-xs-7 col-md-4 col-lg-4">
+                    </li>
+                    <li>
+                       <div class="">
                         <a href="https://okfn.de/" target="_blank">
-                            <img src="{{ site.baseurl }}/assets/img/static/logo-okfn.png"/>
+                            <img style="width: 50%" src="{{ site.baseurl }}/assets/img/static/logo-okfn.png"/>
                         </a>
-                    </div>
-
+                    </li>
+                    <li>
+                       <div class="">
+                        <a href="https://open-hardware-allianz.de/" target="_blank">
+                            <img style="width: 90%" src="{{ site.baseurl }}/assets/img/static/logo_oha.png"/>
+                        </a>
+                    </li>
+                    </ul>
                 {% endif %}
-
             </div>
-
-
             <div class="sponsors-nav">
 
-              <div class="col-xs-24">
-              {% if (base_dir[1] == "2020") %}
-                    <div style="text-align: left; max-width: 300px;">
-                        <a href="https://www.bpb.de/" target="_blank">
-                            <p >Gefördert durch</p>
-                            <img  style="max-width: 50%; margin-bottom:20px" src="{{ site.baseurl }}/assets/img/static/Die_Bundeszentrale_Für_Politische_Bildung_Logo.png"/>
-                        </a>
-                    </div>
-                {% endif %}
-                <div class="cc-info" style="text-align:left">
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/><p class="bold">Inhalte dieser Webseite sind, sofern nicht anders angegeben, nach <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 Attribution lizenziert.</a>
+              <div lass="cc-info">
+                  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/fablabcb/fablabcb.github.io/master/assets/img/static/cc-by88x31.png" /></a><br/><p class="bold">Inhalte dieser Webseite sind, sofern nicht anders angegeben, nach <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 Attribution lizenziert.</a>
+              </div>
+              <div class="gdpr-message col-lg-offset-6 col-md-offset-6 col-xs-24 col-md-12 col-lg-12">
+                          Wir nutzen aus Überzeugung keinerlei Cookies. Unsere Datenschutzerklärung findet ihr im <a  target="_blank" href="https://okfn.de/impressum/">Impressum</a>.</p>
+              </div>
+           </div>
 
-                </div>
-              </div>
-              <div class="foot-links">
-                <a class="imprint simple-btn" target="_blank" href="https://okfn.de/impressum/">Impressum</a>
-              </div>
-            </div>
 
 </footer>
 
