@@ -721,6 +721,10 @@ PAGE & SECTIONS
     background-color: $secondary-color;
     color: $white;
   }
+  &.highlight{
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
 
 }
 
