@@ -15,12 +15,14 @@
 
                 <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about">About</a></li>
                 <li {% if base_dir[2] == 'timeline' %} class="current" {% endif %}><a href="/2023/timeline/">Programm</a></li>
+                <li {% if base_dir[1] == 'apply' %} class="current" {% endif %}><a href="/#apply">Anmelden</a></li>
 
 
             {% else %}
 
                 <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about">About</a></li>
                 <li {% if base_dir[2] == 'timeline' %} class="current" {% endif %}><a href="/2023/timeline/">Programm</a></li>
+                <li {% if base_dir[1] == 'apply' %} class="current" {% endif %}><a href="/#apply">Anmelden</a></li>
 
 
             {% endif %}
