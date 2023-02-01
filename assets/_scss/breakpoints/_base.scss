@@ -287,6 +287,11 @@ WRAPPER STYLES
 
       font-size: 1.25rem;
     }
+    .maintopic {
+        background-color: $background-color-highlight;
+        
+        list-style-type: '↪ '
+    }
   }
 
   .page-description{
