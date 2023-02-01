@@ -284,13 +284,16 @@ WRAPPER STYLES
       &:last-of-type{
         margin-bottom: 0;
       }
-
+     li:first-of-type {
+        margin-top: 10px;
+      }
       font-size: 1.25rem;
     }
     .maintopic {
         background-color: $background-color-highlight;
-        
         list-style-type: '↪ '
+
+
     }
   }
 
