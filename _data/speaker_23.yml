@@ -38,3 +38,11 @@
   img: /assets/img/speaker/23/bonny.jpg
   txt: "Sie beschäftigt sich mit der Frage, welches pädagogische Potenzial hochschulintegrierte DIY-Lab-Infrastrukturen haben. Ihre Forschungsinteressen am Weizenbaum Institut umfassen auch Open Innovation und offene Technologien, Transdisziplinarität und Maker Education."
   featured: true
+- name: Prof. Peter Troxler
+  institution:
+  url:
+  position: Forscher an der Schnittstelle Wirtschaft, Gesellschaft und Technologie.
+  function:
+  img: /assets/img/speaker/23/trox.jpg
+  txt: "Peter Troxler ist Professor an der Hochschule für angewandte Wissenschaften in Rotterdam, Niederlande. Er untersucht die Auswirkungen digitaler Fertigungstechnologien sowie der Design- und Fertigungspraxis der Maker auf die Kreativ- und Fertigungsindustrie und die Entstehung vernetzter Kooperationsparadigmen und Geschäftsmodelle, die auf Open-Source-Prinzipien basieren."
+  featured: true
