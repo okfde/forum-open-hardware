@@ -290,9 +290,11 @@ WRAPPER STYLES
       font-size: 1.25rem;
     }
     .maintopic {
-        background-color: $background-color-highlight;
-        list-style-type: '↪ '
 
+        list-style-type: '↪ ';
+        .highlight{
+            background-color: $primary-color;
+        }
 
     }
   }

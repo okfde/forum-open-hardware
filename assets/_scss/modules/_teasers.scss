@@ -106,7 +106,13 @@ teasers
     .member-position{
       font-size: 1.25rem;
     }
+    .member-function{
+      font-size: 1.25rem;
+      color: black;
+      background-color: $primary-color;
+      text-align: center;
 
+    }
     .member-headline{
       font-size: 2em;
     }

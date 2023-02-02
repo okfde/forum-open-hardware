@@ -20,9 +20,9 @@ permalink: /2023/timeline/
                             <li>13:00 Auftakt und Vorstellung der Themenwerkstätten</li>
                             <li>13:20 Start der Themenwerkstätten
                                 <ul>
-                                    <li class="maintopic">Kreislaufwirtschaft mit offene Technologien</li>
-                                    <li class="maintopic">Internationaler Wissenstransfer</li>
-                                    <li class="maintopic">Open Science Hardware</li>
+                                    <li class="maintopic"><span class="highlight">Kreislaufwirtschaft mit offene Technologien</span> - mit <a href="#speaker">Lars Zimmermann</a></li>
+                                    <li class="maintopic"><span class="highlight">Internationaler Wissenstransfer</span> - mit <a href="#speaker">Geraldine de Bastion</a></li>
+                                    <li class="maintopic"><span class="highlight">Open Science Hardware</span> - mit <a href="#speaker">Bonny Brandenburger</a></li>
                                 </ul>
                             </li>
                             <li>14:50 Pause</li>
@@ -33,23 +33,23 @@ permalink: /2023/timeline/
                             <li>15:30 Begrüßung</li>
                             <li>15:50 Wie helfen offene Infrastrukturen der Zivilgesellschaft?
                                 <ul>
-                                    <li class="maintopic">Heißdampf für mobile Küchen</li>
-                                    <li class="maintopic">Mit dem Laser4DIY niederschwellig Platinen herstellen</li>
-                                    <li class="maintopic">Durch das OpenMycoLab Pilze erforschen und produzieren</li>
+                                    <li class="maintopic"><span class="highlight">Heißdampf für mobile Küchen</span></li>
+                                    <li class="maintopic"><span class="highlight">Mit dem Laser4DIY niederschwellig Platinen herstellen</span></li>
+                                    <li class="maintopic"><span class="highlight">Durch das OpenMycoLab Pilze erforschen und produzieren</span></li>
                                 </ul>
                             </li>
                             <li>16:55 Pause</li>
                             <li>17:10 Mit Open Hardware Ressourcen erzeugen, wiederverwerten und sparen
                                 <ul>
-                                    <li class="maintopic">Energiegewinnung mit Windkit</li>
-                                    <li class="maintopic">Sauberes Wasser durch LibreWater</li>
-                                    <li class="maintopic">Mit HILO zur Liberalisierung der Textilproduktion</li>
+                                    <li class="maintopic"><span class="highlight">Energiegewinnung mit Windkit</span></li>
+                                    <li class="maintopic"><span class="highlight">Sauberes Wasser durch LibreWater</span></li>
+                                    <li class="maintopic"><span class="highlight">Mit HILO zur Liberalisierung der Textilproduktion</span></li>
                                 </ul>
                             </li>
                             <li>18:15 Pause</li>
-                            <li>18:45 Abschlusspanel
+                            <li>18:45 Abschlusspanel, mit <a href="#speaker">Katarina Peranić, Melanie Jaeger-Erben, Lars Zimmermann, Vertreter*in BMUV</a> - moderiert von <a href="#speaker">Caroline Paulick-Thiel</a>
                                 <ul>
-                                    <li class="maintopic">Mit offenen Technologien und einer aktiven Zivilbevölkerung zur zukunftsfähigen Gesellschaft?</li>
+                                    <li class="maintopic"><span class="highlight">Mit offenen Technologien und einer aktiven Zivilbevölkerung zur zukunftsfähigen Gesellschaft?</span></li>
                                 </ul>
                             </li>
                         </ul>
@@ -66,7 +66,26 @@ permalink: /2023/timeline/
             </div>
         </div>
     </section>
+    <div class="row">
+        <section class="section grey-light col-xs-24">
+            <div class="content-wrap subpage-content">
+                <h2 id="speaker" name="speaker" tabindex="1" class="section-headline">Redner und Rednerinnen</h2>
+                <center><p></p></center>
+            </div>
+            <div class="team-teaser-wrap col-xs-22 col-xs-push-1 col-md-20 col-md-push-2 col-lg-18 col-lg-push-3">
+                {% if site.data.speaker_23 %}
+                    {% for speaker in site.data.speaker_23 %}
+                        {% if speaker.featured == true %}
+                            {% include partials/member-teaser.liquid src=speaker.img  function=speaker.function name=speaker.name position=speaker.position copy=speaker.txt website=speaker.url  %}
 
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+
+            </div>
+
+        </section>
+    </div>
 
 </div>
 <!-- include mitmachen section -->

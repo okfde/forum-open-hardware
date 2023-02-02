@@ -1,0 +1,40 @@
+- name: Lars Zimmermann
+  institution: Mifactory
+  url:
+  position: Designer, Künstler & Aktivist
+  function:
+  img: /assets/img/speaker/23/lars.jpg
+  txt: "Lars Zimmermann führt ein Design-Studio namens Mifactori, welches “Open Circular Design” für die Gestaltung von Produkten, Stadtleben, Bildung und Aktivismus einsetzt und erforscht. Lars schreibt außerdem, hält Vorträge und unterrichtet z.B. an Universitäten."
+  featured: true
+- name: Prof. Melanie Jaeger-Erben
+  institution: BTU Cottbus – Senftenberg
+  url:
+  position: Technik- und Umweltsoziologin
+  function:
+  img: /assets/img/speaker/23/melanie.png
+  txt: "Melanie Jaeger-Erben ist seit dem 2021 Professorin für Technik- und Umweltsoziologie an der BTU Cottbus – Senftenberg. Zuvor hat sie das Fachgebiet Transdisziplinäre Nachhaltigkeitsforschung in der Elektronik an der TU Berlin geleitet."
+  featured: true
+- name: Katarina Peranić
+  institution: DSEE
+  url:
+  position: Vorständin DSEE
+  function:
+  img: /assets/img/speaker/23/kati.jpg
+  txt: "Katarina Peranić ist Gründungsvorständin der Deutschen Stiftung für Engagement und Ehrenamt. Sie setzt sich insbesondere für sozial-digitale Innovationen im Ehrenamt ein, um hiermit einen Beitrag zum Gelingen laufender und anstehender gesellschaftlicher Transformationsprozesse zu leisten."
+  featured: true
+- name: Geraldine de Bastion
+  institution: GIG
+  url:
+  position: Mitgründerin von GIG
+  function:
+  img: /assets/img/speaker/23/geraldine.jpg
+  txt: "Geraldine ist eine der Gründerinnen von Global Innovation Gathering (GIG), einem Netzwerk von internationalen Basisinnovatoren, Sozialunternehmern, Gründern und Managern von Makerspaces, Hackerspaces und Innovationszentren."
+  featured: true
+- name: Bonny Brandenburger
+  institution: GIG
+  url:
+  position: Research Associate Weizenbaum Institut
+  function:
+  img: /assets/img/speaker/23/bonny.jpg
+  txt: "Sie beschäftigt sich mit der Frage, welches pädagogische Potenzial hochschulintegrierte DIY-Lab-Infrastrukturen haben. Ihre Forschungsinteressen am Weizenbaum Institut umfassen auch Open Innovation und offene Technologien, Transdisziplinarität und Maker Education."
+  featured: true
