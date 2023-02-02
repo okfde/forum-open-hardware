@@ -37,6 +37,8 @@ plugins:
   - jekyll-feed
   - jekyll-bootstrap-sass
   - jekyll-lunr-js-search
+  - jekyll-sitemap
+  - jekyll-seo-tag
   #- jekyll-autoprefixer
 exclude:
   - Gemfile
