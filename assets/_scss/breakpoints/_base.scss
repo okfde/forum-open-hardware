@@ -278,7 +278,7 @@ WRAPPER STYLES
     li{
 
       position: relative;
-
+      font-size: 1.25rem;
       margin-bottom: 25px;
 
       &:last-of-type{
@@ -287,7 +287,7 @@ WRAPPER STYLES
      li:first-of-type {
         margin-top: 10px;
       }
-      
+
     }
     .maintopic {
 
@@ -295,7 +295,9 @@ WRAPPER STYLES
         .highlight{
             background-color: $primary-color;
         }
-
+    }
+    a{
+        font-size: 1.25rem;
     }
   }
 
