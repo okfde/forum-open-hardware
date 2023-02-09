@@ -46,3 +46,11 @@
   img: /assets/img/speaker/23/trox.jpg
   txt: "Peter Troxler ist Professor an der Hochschule für angewandte Wissenschaften in Rotterdam, Niederlande. Er untersucht die Auswirkungen digitaler Fertigungstechnologien sowie der Design- und Fertigungspraxis der Maker auf die Kreativ- und Fertigungsindustrie und die Entstehung vernetzter Kooperationsparadigmen und Geschäftsmodelle, die auf Open-Source-Prinzipien basieren."
   featured: true
+- name: Anja Mager
+  institution:
+  url:
+  position: Referatsleiterin "Nachhaltiger Konsum, Produktbezogener Umweltschutz" BMUV
+  function:
+  img: /assets/img/speaker/23/anjamager.jpg
+  txt: ""
+  featured: true
