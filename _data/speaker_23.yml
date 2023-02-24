@@ -52,5 +52,13 @@
   position: Referatsleiterin "Nachhaltiger Konsum, Produktbezogener Umweltschutz" BMUV
   function:
   img: /assets/img/speaker/23/anjamager.jpg
-  txt: ""
+  txt: "Anja Mager ist Leiterin des Referats 'Nachhaltiger Konsum, Produktbezogener Umweltschutz' beim Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV). Zuvor hat sie sieben Jahre lang in mehreren Referaten in der Klimaschutzabteilung des BMU gearbeitet. Dort war sie u.a. Teil der deutschen Delegation bei den internationalen Klimaverhandlungen und für den kommunalen Klimaschutz tätig. Anja Mager ist Juristin und hat in Köln, Florenz und London studiert."
+  featured: true
+- name: Caroline Paulick-Thiel
+  institution:
+  url:
+  position: Moderatorin
+  function:
+  img: /assets/img/speaker/23/caroline.jpg
+  txt: "Caroline ist strategische Designerin und Expertin für verantwortungsvolle Innovation. Ausgebildet in Design und Public Policy, besitzt sie umfangreiche Erfahrungen in der Entwicklung und Leitung von partizipativen Prozessen zur Bearbeitung öffentlicher Herausforderungen. Seit 2015 ist sie Direktorin von Politics for Tomorrow und begleitet gesellschaftliche Transformationsprozesse."
   featured: true
