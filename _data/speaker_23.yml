@@ -6,6 +6,14 @@
   img: /assets/img/speaker/23/lars.png
   txt: "Lars Zimmermann führt ein Design-Studio namens Mifactori, welches “Open Circular Design” für die Gestaltung von Produkten, Stadtleben, Bildung und Aktivismus einsetzt und erforscht. Lars schreibt außerdem, hält Vorträge und unterrichtet z.B. an Universitäten."
   featured: true
+- name: Anja Mager
+  institution:
+  url:
+  position: Referatsleiterin "Nachhaltiger Konsum, Produktbezogener Umweltschutz" BMUV
+  function:
+  img: /assets/img/speaker/23/anjamager.jpg
+  txt: "Anja Mager arbeitet seit mehreren Jahren zu den Themen Ökodesign, Recht auf Reparatur und nachhaltige öffentliche Beschaffung beim Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV). Zuvor hat sie in der Klimaschutzabteilung des BMU gearbeitet. Dort war sie u.a. Teil der deutschen Delegation bei den internationalen Klimaverhandlungen und für den kommunalen Klimaschutz tätig. Anja Mager ist Juristin und hat in Köln, Florenz und London studiert."
+  featured: true
 - name: Prof. Melanie Jaeger-Erben
   institution: BTU Cottbus – Senftenberg
   url:
@@ -46,14 +54,6 @@
   img: /assets/img/speaker/23/trox.jpg
   txt: "Peter Troxler ist Professor an der Hochschule für angewandte Wissenschaften in Rotterdam, Niederlande. Er untersucht die Auswirkungen digitaler Fertigungstechnologien sowie der Design- und Fertigungspraxis der Maker auf die Kreativ- und Fertigungsindustrie und die Entstehung vernetzter Kooperationsparadigmen und Geschäftsmodelle, die auf Open-Source-Prinzipien basieren."
   featured: true
-- name: Anja Mager
-  institution:
-  url:
-  position: Referatsleiterin "Nachhaltiger Konsum, Produktbezogener Umweltschutz" BMUV
-  function:
-  img: /assets/img/speaker/23/anjamager.jpg
-  txt: "Anja Mager leitet das Referats 'Nachhaltiger Konsum, Produktbezogener Umweltschutz' beim Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV). Sie arbeitet seit mehreren Jahren zu den Themen Ökodesign, Recht auf Reparatur und nachhaltige öffentliche Beschaffung. Zuvor hat sie in der Klimaschutzabteilung des BMU gearbeitet. Dort war sie u.a. Teil der deutschen Delegation bei den internationalen Klimaverhandlungen und für den kommunalen Klimaschutz tätig. Anja Mager ist Juristin und hat in Köln, Florenz und London studiert."
-  featured: true
 - name: Caroline Paulick-Thiel
   institution:
   url:
@@ -62,4 +62,11 @@
   img: /assets/img/speaker/23/caroline.jpg
   txt: "Caroline ist strategische Designerin und Expertin für verantwortungsvolle Innovation. Ausgebildet in Design und Public Policy, besitzt sie umfangreiche Erfahrungen in der Entwicklung und Leitung von partizipativen Prozessen zur Bearbeitung öffentlicher Herausforderungen. Seit 2015 ist sie Direktorin von Politics for Tomorrow und begleitet gesellschaftliche Transformationsprozesse."
   featured: true
-
+- name: Dr. Oliver Keller
+  institution:
+  url:
+  position: Wissenschaftler und Ingenieur in der Nuklearphysik
+  function:
+  img: /assets/img/speaker/23/oliver.jpeg
+  txt: "Oliver Keller ist Wissenschaftler und Ingenieur in der Nuklearphysik bei GSI/FAIR in Darmstadt. Basierend auf praktischen Erfahrungen in Industrie und Forschung, setzt er sich leidenschaftlich für Open Hardware im institutionellen als auch zivilen Citizen Science Kontext ein. Unter anderem am CERN, beim internationalen Gathering of Open Science Hardware (GOSH) und als Editor im Journal of Open Hardware."
+  featured: true
