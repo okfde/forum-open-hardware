@@ -70,3 +70,51 @@
   img: /assets/img/speaker/23/alex.jpg
   txt: "Alexander ist ehemaliger Doktorand der Technischen Universität München und kombiniert Mikrobiologie, Pflanzenwissenschaften und Biochemie. Aktuell arbeitet er an der TU-Berlin in der Einrichtung Arbeitslehre/Technik und Partizipation und beschäftigt sich mit Critical Making."
   featured: true
+- name: Felix Marten
+  institution:
+  url:
+  position: OpenMycoLab
+  function:
+  img: /assets/img/speaker/23/openmycolab_white.png
+  txt: "Felix baut mit zahlreichen anderen ein Labor-Container zur Selektierung und Anzucht von Pilzen. Der Container besteht insbesondere aus einer Schleuse, die einen dahinterliegenden Reinraum vor Partikeln, Keimen und fremden Pilzsporen schützt. Die Pilzzucht ist ein Anwendungsfall, es sind aber auch andere denkbar, wie z.B. bei medizinischen Notfällen in Krisengebieten."
+  featured: true
+- name: André Rießler
+  institution:
+  url:
+  position: Solikante
+  function:
+  img: /assets/img/speaker/23/heissdampf_white.png
+  txt: "André arbeitet an einem mobilen Heißdampfgeschirrspüler, der Off-Grid, also in Gegenden ohne Stromversorgung, in eine Abwaschstraße von Kochkollektiven integriert werden kann. Solche Gruppen kochen mit 20 Personen für bis zu 1200 Menschen. Dafür braucht es eine gute Logistik. Heißdampf hilft, um Hygienestandards einzuhalten, die sonst schwer einzuhalten sind, wenn für mehr als 100 Menschen gekocht werden soll."
+  featured: true
+- name: Andreas Kahler
+  institution:
+  url:
+  position: Laser4DIY
+  function:
+  img: /assets/img/speaker/23/laser4diy_white.png
+  txt: "Platinen sind die Grundlage von allen elektronischen Geräten, auf ihnen sind die Bauteile miteinander verbunden, durch sogenannte Leiterbahnen. Andreas arbeitet mit seinem Team an einem Gerät, das es allen ermöglicht, mithilfe eines Lasers Elektronikplatinen herzustellen."
+  featured: true
+- name: Immanuel Dorn, Lukas Ferber
+  institution:
+  url:
+  position: Windkit
+  function:
+  img: /assets/img/speaker/23/windkit_white.png
+  txt: "Der ERNI e.V. hat eine Kleinwindenergieanlage für die Versorgung von Inselsystemen gebaut. Das sind Netzwerke zur Versorgung mit Strom, die nicht an das allgemeine Stromnetz angeschlossen sind. Immanuel und Lukas stellen das Projekt vor."
+  featured: true
+- name: Tom Dietel
+  institution:
+  url:
+  position: Libre Water
+  function:
+  img: /assets/img/speaker/23/libre_water_white.png
+  txt: "Libre Water nutzt die Technologie der solaren Meerwasserentsalzung und entwickelt ein einfaches System, mit dem Menschen in ihrer Region mittels Sonnenenergie Wasser selbst entsalzen oder reinigen können. Tom präsentiert das Vorhaben."
+  featured: true
+- name: Sara Diaz Rodriguez, Natlija Krasnoperova
+  institution:
+  url:
+  position: Studio HILO
+  function:
+  img: /assets/img/speaker/23/hilo_white.png
+  txt: "Studie HILO hat eine Textilrecyclingmaschine entwickelt. Mit der ist es möglich, im kleinen Stil lokal ausgediente Kleidungsstücke wieder nutzbar zu machen und dem Produktionskreislauf erneut zuzuführen."
+  featured: true
